@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  width: 950px;
+  height: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(93, 93, 93, 0.5);
+  background-color: #ffffff;
+}
+
+.left-part {
+  flex: 1.2;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2019/08/11/15/48/road-trip-4399206_640.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.top-part {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 1px;
+}
+
+.top-part .logo {
+  width: 75px;
+  height: auto;
+}
+
+.top-part .brand-name {
+  margin-top: 1px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  /* padding: 0px 2px 15px 0px; */
+}
+
+.bottom-part {
+  text-align: center;
+  margin-top: 290px;
+  top: 50%;
+  padding: 0 0 0 15px;
+}
+
+.bottom-part h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.bottom-part p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.bottom-part .sign-in {
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: #0e1111;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bottom-part .sign-in:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.right-part {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  background-color: #ffffff;
+}
+
+.right-part h1 {
+  font-size: 2.5rem;
+  color: #3bc9a7;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 1px;
+  padding: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+
+.social-media img:hover {
+  transform: scale(1.2);
+}
+
+.right-part p {
+  color: #666666;
+  font-size: 1rem;
+  margin-bottom: 2px;
+  padding-left: 30px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
+  background-color: #fafafa;
+}
+
+.input-field input:focus {
+  border-color: #3bc9a7;
+  box-shadow: 0 0 5px rgba(59, 201, 167, 0.5);
+}
+
+.input-field .sign-up {
+  padding: 15px 35px;
+  font-size: 1rem;
+  color: white;
+  background-color: #3bc9a7;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-field .sign-up:hover {
+  background-color: #2f8f83;
+}
+
